@@ -19,9 +19,8 @@
 	</bean>
 
 	<!-- 使用Annotation自动注册Bean,只扫描@Controller -->
-	<context:component-scan base-package="cn.tyrone.wallet.controller">
-		<context:include-filter type="annotation"
-			expression="org.springframework.stereotype.Controller" />
+	<context:component-scan base-package="cn.tyrone.wallet.**.controller">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 
 	<!-- 定义视图文件解析 -->

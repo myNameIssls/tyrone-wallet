@@ -24,7 +24,7 @@ var columns = [[
 $(function(){
 	// detail
 	$('#dg').datagrid({
-	    url:'/tally/getDetailsData',
+	    url:'../tally/getDetailsData',
 	    fit:true,
 	    loadMsg: '数据正在加载,请耐心的等待...' ,
 	    pagination: true , 
